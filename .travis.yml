@@ -15,4 +15,4 @@ branches:
   - master
 
 install:
-  - npm i
+  - yarn
