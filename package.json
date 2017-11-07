@@ -36,7 +36,8 @@
       "target": "dmg"
     },
     "linux": {
-      "target": "deb"
+      "target": "deb",
+      "category": "Development"
     }
   },
   "scripts": {
