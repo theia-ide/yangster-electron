@@ -43,7 +43,7 @@
     "build": "theia build",
     "package": "build",
     "package:all": "build -mwl --x64",
-    "postinstall": "npm run build && npm run dist",
+    "postinstall": "npm run dist",
     "dist": "npm run build && npm run package"
   },
   "keywords": [],
