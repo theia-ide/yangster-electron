@@ -5,7 +5,7 @@ os:
   - osx
 
 node_js:
-- '8'
+  - '8'
 
 git:
   depth: 1
@@ -13,6 +13,9 @@ git:
 branches:
   only:
   - master
+
+before_install:
+  - node --version && yarn --version && python --version
 
 install:
   - yarn

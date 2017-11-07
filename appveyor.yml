@@ -15,5 +15,8 @@ install:
   - ps: Install-Product node $env:nodejs_version $env:platform
   - ps: npm install --global --production windows-build-tools
 
+before_build:
+  - node --version && yarn --version && python --version
+
 build_script:
   - yarn
