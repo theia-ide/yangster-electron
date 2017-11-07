@@ -1,7 +1,7 @@
 # yangster-electron
-
 [![Build Status](https://travis-ci.org/theia-ide/yangster-electron.svg?branch=master)](https://travis-ci.org/theia-ide/yangster-electron)
 [![Build status](https://ci.appveyor.com/api/projects/status/vx1e99g4ey9m73as/branch/master?svg=true)](https://ci.appveyor.com/project/kittaakos/yangster-electron/branch/master)
+
 Bundled Yangster electron application
 
 ### Quick start
