@@ -33,7 +33,10 @@
       "runAfterFinish": false
     },
     "mac": {
-        "target": "dmg"
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "deb"
     }
   },
   "scripts": {
@@ -45,7 +48,7 @@
   },
   "keywords": [],
   "author": "typefox <npm@typefox.io>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/theia-ide/yangster-electron/issues"
   },
@@ -54,6 +57,7 @@
     "@theia/core": "next",
     "@theia/editor": "next",
     "@theia/filesystem": "next",
+    "@theia/file-search": "next",
     "@theia/git": "next",
     "@theia/languages": "next",
     "@theia/markers": "next",
@@ -62,7 +66,6 @@
     "@theia/preferences": "next",
     "@theia/process": "next",
     "@theia/terminal": "next",
-    "@theia/typescript": "next",
     "@theia/workspace": "next",
     "theia-yang-extension": "0.1.2",
     "xterm": "^2.9.2"
