@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+lib
+*.log
+.idea
+.metadata
+dist
+src-gen
+webpack.config.js
+package-lock.json
+yarn.lock
