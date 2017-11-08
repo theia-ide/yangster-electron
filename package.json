@@ -29,6 +29,10 @@
       "oneClick": false,
       "perMachine": true,
       "installerHeaderIcon": "resources/icon.ico",
+      "installerIcon": "resources/icon.ico",
+      "uninstallerIcon": "resources/icon.ico",
+      "installerSidebar": "resources/installerSidebar.bmp",
+      "uninstallerSidebar": "resources/installerSidebar.bmp",
       "allowToChangeInstallationDirectory": true,
       "runAfterFinish": false
     },
