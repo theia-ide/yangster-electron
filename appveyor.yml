@@ -19,4 +19,4 @@ before_build:
   - node --version && yarn --version && python --version
 
 build_script:
-  - yarn
+  - yarn run build && yarn run dist:win

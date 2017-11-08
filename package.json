@@ -46,10 +46,7 @@
   },
   "scripts": {
     "build": "theia build",
-    "package": "build",
-    "package:all": "build -mwl --x64",
-    "postinstall": "npm run dist",
-    "dist": "npm run build && npm run package"
+    "release": "yarn run build && electron-builder"
   },
   "keywords": [],
   "author": "typefox <npm@typefox.io>",
