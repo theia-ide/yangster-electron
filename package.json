@@ -13,6 +13,10 @@
   "build": {
     "appId": "yangster-electron.app",
     "productName": "Yangster",
+    "publish": {
+      "provider": "github",
+      "releaseType": "release"
+    },
     "files": [
       "src-gen/**/*",
       "lib/**/*",
@@ -23,7 +27,6 @@
       "buildResources": "resources"
     },
     "asar": false,
-    "publish": null,
     "nsis": {
       "menuCategory": true,
       "oneClick": false,
