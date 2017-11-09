@@ -19,8 +19,7 @@ linux:
   target:
     - deb
     - AppImage
-  category:
-    - Development
+  category: Development
   icon: resources/icons
   executableName: yangster
 
