@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "theia build",
-    "package": "yarn run build && electron-builder"
+    "package": "yarn run build && electron-builder",
+    "package:all": "yarn run build && electron-builder -lmw"
   },
   "keywords": [],
   "author": "typefox <npm@typefox.io>",
