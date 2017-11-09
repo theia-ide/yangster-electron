@@ -18,6 +18,17 @@ git clone https://github.com/theia-ide/yangster-electron.git \
 && yarn
 ```
 
+### Publishing a new release
+ - Go to the [`releases`](https://github.com/theia-ide/yangster-electron/releases) page and select the `Draft a new release` button.
+ - Set the desired version and select the target branch. The version should match the `v\d+\.\d+\.\d+` patten. For instance, `2.12.4`. By default, the target branch is `master`, which is fine for our use-case.
+ - Select `Save draft`.
+ - Update the product version in the `package.json`. The new version should match with the previously configured version of the draft release. Note, the leading `v` should be omitted from the version in the `package.json`.
+ - Commit your changes and push to the remote.
+ - CIs will automatically start a new build with your most recent modifications. Once the builds are green, the artifacts will be uploaded and attached by the CIs to your release.
+ - Go the `releases` page and select your release draft you would like to finalize. Select `edit`.
+ - Here, you can make some additional changes. You can remove exisiting artifacts or even upload additional ones manually. When you are ready, select `Publish release`. 
+ - :sparkles:
+
 The bundled applications will be available under the `dist` folder.
 
 ### Troubleshooting
