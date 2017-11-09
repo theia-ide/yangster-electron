@@ -38,11 +38,22 @@
       "allowToChangeInstallationDirectory": true,
       "runAfterFinish": false
     },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
     "mac": {
-      "target": "dmg"
+      "target": [
+        "dmg"
+      ]
     },
     "linux": {
-      "target": "deb",
+      "target": [
+        "deb",
+        "rpm",
+        "AppImage"
+      ],
       "category": "Development"
     }
   },

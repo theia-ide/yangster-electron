@@ -25,4 +25,4 @@ before_build:
   - node --version && yarn --version && python --version
 
 build_script:
-  - yarn package -- --publish onTagOrDraft
+  - yarn && yarn package -- --publish onTagOrDraft
