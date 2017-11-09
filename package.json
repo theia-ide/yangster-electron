@@ -10,52 +10,6 @@
   "theia": {
     "target": "electron"
   },
-  "build": {
-    "appId": "yangster-electron.app",
-    "productName": "Yangster",
-    "publish": {
-      "provider": "github"
-    },
-    "files": [
-      "src-gen/**/*",
-      "lib/**/*",
-      "node_modules/**/*",
-      "package.json"
-    ],
-    "directories": {
-      "buildResources": "resources"
-    },
-    "asar": false,
-    "nsis": {
-      "menuCategory": true,
-      "oneClick": false,
-      "perMachine": true,
-      "installerHeaderIcon": "resources/icon.ico",
-      "installerIcon": "resources/icon.ico",
-      "uninstallerIcon": "resources/icon.ico",
-      "installerSidebar": "resources/installerSidebar.bmp",
-      "uninstallerSidebar": "resources/installerSidebar.bmp",
-      "allowToChangeInstallationDirectory": true,
-      "runAfterFinish": false
-    },
-    "win": {
-      "target": [
-        "nsis"
-      ]
-    },
-    "mac": {
-      "target": [
-        "dmg"
-      ]
-    },
-    "linux": {
-      "target": [
-        "deb",
-        "AppImage"
-      ],
-      "category": "Development"
-    }
-  },
   "scripts": {
     "build": "theia build",
     "package": "yarn run build && electron-builder"
