@@ -13,7 +13,7 @@ env:
 
 os:
   - linux
-  - osx
+#  - osx
 
 cache:
   directories:
@@ -32,8 +32,8 @@ install:
   - yarn
 
 script:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then yarn release -- --publish onTag; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then yarn release -- --mac --win --publish onTag; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then yarn package -- --publish always --draft; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then yarn package -- --publish always --draft; fi
 
 before_cache:
   - rm -rf $HOME/.cache/electron-builder/wine

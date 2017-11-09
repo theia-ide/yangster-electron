@@ -14,8 +14,7 @@
     "appId": "yangster-electron.app",
     "productName": "Yangster",
     "publish": {
-      "provider": "github",
-      "releaseType": "release"
+      "provider": "github"
     },
     "files": [
       "src-gen/**/*",
@@ -49,7 +48,7 @@
   },
   "scripts": {
     "build": "theia build",
-    "release": "yarn run build && electron-builder"
+    "package": "yarn run build && electron-builder"
   },
   "keywords": [],
   "author": "typefox <npm@typefox.io>",
