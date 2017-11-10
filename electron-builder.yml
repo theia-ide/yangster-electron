@@ -22,7 +22,6 @@ linux:
     - AppImage
   category: Development
   icon: resources/icons
-  executableName: yangster
 
 nsis:
   menuCategory: true
@@ -35,6 +34,7 @@ nsis:
   uninstallerSidebar: resources/installerSidebar.bmp
   allowToChangeInstallationDirectory: true
   runAfterFinish: false
+  artifactName: ${productName}-Installer-${version}.${ext}
 dmg:
   background: resources/dmgInstaller.tiff
   icon: resources/icon.icns

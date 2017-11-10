@@ -1,6 +1,6 @@
 {
   "name": "yangster-electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yangster Electron",
   "main": "src-gen/frontend/electron-main.js",
   "repository": {
@@ -23,24 +23,24 @@
   },
   "homepage": "https://github.com/theia-ide/yangster-electron#readme",
   "dependencies": {
-    "@theia/core": "next",
-    "@theia/editor": "next",
-    "@theia/filesystem": "next",
-    "@theia/file-search": "next",
-    "@theia/git": "next",
-    "@theia/languages": "next",
-    "@theia/markers": "next",
-    "@theia/monaco": "next",
-    "@theia/navigator": "next",
-    "@theia/preferences": "next",
-    "@theia/process": "next",
-    "@theia/terminal": "next",
-    "@theia/workspace": "next",
+    "@theia/core": "0.2.1",
+    "@theia/editor": "0.2.1",
+    "@theia/filesystem": "0.2.1",
+    "@theia/file-search": "0.2.1",
+    "@theia/git": "0.2.1",
+    "@theia/languages": "0.2.1",
+    "@theia/markers": "0.2.1",
+    "@theia/monaco": "0.2.1",
+    "@theia/navigator": "0.2.1",
+    "@theia/preferences": "0.2.1",
+    "@theia/process": "0.2.1",
+    "@theia/terminal": "0.2.1",
+    "@theia/workspace": "0.2.1",
     "theia-yang-extension": "0.1.2",
     "xterm": "^2.9.2"
   },
   "devDependencies": {
-    "@theia/cli": "next",
+    "@theia/cli": "0.2.1",
     "electron-builder": "^19.30.2"
   }
 }
