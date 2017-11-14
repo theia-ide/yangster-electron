@@ -1,6 +1,6 @@
 {
   "name": "yangster-electron",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Yangster Electron",
   "main": "src-gen/frontend/electron-main.js",
   "repository": {
@@ -36,7 +36,7 @@
     "@theia/process": "0.2.1",
     "@theia/terminal": "0.2.1",
     "@theia/workspace": "0.2.1",
-    "theia-yang-extension": "0.1.2",
+    "theia-yang-extension": "0.1.3",
     "xterm": "^2.9.2"
   },
   "devDependencies": {
