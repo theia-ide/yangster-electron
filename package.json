@@ -11,7 +11,7 @@
     "target": "electron"
   },
   "scripts": {
-    "build": "theia build",
+    "build": "theia build && shx cp ./GH-17/electron-main.js ./src-gen/frontend/",
     "package": "yarn run build && electron-builder",
     "package:all": "yarn run build && electron-builder -lmw"
   },
@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "@theia/cli": "^0.2.1",
-    "electron-builder": "^19.30.2"
+    "electron-builder": "^19.30.2",
+    "//": "GH-17",
+    "shx": "^0.2.2"
   }
 }
