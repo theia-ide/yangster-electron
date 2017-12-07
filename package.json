@@ -22,6 +22,10 @@
     "url": "https://github.com/theia-ide/yangster-electron/issues"
   },
   "homepage": "https://github.com/theia-ide/yangster-electron#readme",
+  "//": [
+    "See why `yargs` is an explicit dependency: https://github.com/theia-ide/theia/issues/934",
+    "See why `xterm` is an explicit dependency: https://github.com/theia-ide/theia/issues/737"
+  ],
   "dependencies": {
     "@theia/core": "latest",
     "@theia/editor": "latest",
@@ -36,7 +40,8 @@
     "@theia/process": "latest",
     "@theia/terminal": "latest",
     "@theia/workspace": "latest",
-    "theia-yang-extension": "^0.1.6",
+    "theia-yang-extension": "^0.1.7",
+    "yargs": "^9.0.1",
     "xterm": "^2.9.2"
   },
   "devDependencies": {
