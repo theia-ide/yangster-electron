@@ -2,20 +2,24 @@
 [![Build Status](https://travis-ci.org/theia-ide/yangster-electron.svg?branch=master)](https://travis-ci.org/theia-ide/yangster-electron)
 [![Build status](https://ci.appveyor.com/api/projects/status/vx1e99g4ey9m73as/branch/master?svg=true)](https://ci.appveyor.com/project/kittaakos/yangster-electron/branch/master)
 
-Bundled Yangster electron application
+Yangster electron application
+
+### Try it out
+The executable artifacts can be downloaded from [here](https://github.com/theia-ide/yangster-electron/releases/latest).
 
 ### Prerequisites
  - Node.js 8+
  - yarn 1.2.1+
  - Git 2.11+
  - Java 8+ (Currently, Java 9 is not supported.)
+ - Python 2.7.x (Python 3, is not supported.)
 
 ### Quick start
-
 ```bash
 git clone https://github.com/theia-ide/yangster-electron.git \
 && cd yangster-electron \
 && yarn \
+&& yarn build \
 && yarn package
 ```
 
