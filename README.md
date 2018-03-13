@@ -50,3 +50,10 @@ Reason: Incompatible library version: appimagetool requires version 5401.0.0 or 
 Install `wine` on OS X by running `brew install wine` if you see:
 ```
 Error: Cannot check wine version: Error: Exit code: ENOENT. spawn wine ENOENT
+```
+
+Set the `VCTargetsPath` environment variable with `SET VCTargetsPath=path\to\MSBuild\Microsoft.Cpp\v4.0\v140`, and do `npm config set msvs_version 2017 --global` if you are facing with the following error on Windows:
+
+```
+error MSB4019: The imported project "some\invalid\path\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that t he file exists on disk.
+```
